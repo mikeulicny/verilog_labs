@@ -1,0 +1,5 @@
+NET "y_out" LOC = W21;
+NET "x_in" LOC = T9;
+NET "clock" LOC = U8;
+NET "reset" LOC = U10;
+NET "clock" CLOCK_DEDICATED_ROUTE = FALSE;
