@@ -13,7 +13,7 @@ module ALU (input [15:0] a,	//src1
 		3'b010: result = a & b; // and  
 		3'b011: result = a | b; // or  
 		3'b100: begin 
-					if (a<b) result = 16'd1;  
+			if (a<b) result = 16'd1;  
 				else result = 16'd0;  
 				end  
 		default:result = a + b; // add  
